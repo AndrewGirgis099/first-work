@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
+main{
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+:root{
+    --bg-main-color:#F5F5F5;
+    --bg-secondary-color:#1E2E45;
+    --main-primary:#3A3A38;
+    --btn-color:#9A9162;
+    --btn-color-hover:#94884e;
+}
+.cursor{
+    cursor: pointer;
+}
+
+body{
+overflow-x: hidden !important;
+}
+
+html{
+overflow-x: hidden !important;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 18px;
+}
+
+.bg-secondary-color{
+    background-color: var(--bg-secondary-color);
+}
+
+.btn-color{
+    background: var(--btn-color);
+    font-size: 22px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-color:hover{
+    background: var(--btn-color-hover);
+
+}
+/* header */
+ul li a{
+    color: #fff !important;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.line-between{
+    width: 2px;
+    height: 120px;
+    background: #ffffffd8;
+}
+
+h1{
+    font-size: 65px;
+}
+header{
+    background-image:linear-gradient(rgba(30, 46, 69, 0.897),rgba(30, 46, 69, 0.904)) , url(../images/background.png);
+    background-size: cover;
+    background-position: center center;
+}
+/* /////////////////////////////////////// */
+/* footer section */
+footer{
+    padding: 100px 0;
+    background-color: #172435;
+}
+#northmanLogo{
+    position: relative;
+}
+#northmanLogo::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -25px;
+    left: 0%;
+}
+.final-line{
+    position: relative;
+}
+.final-line::after{
+    content: "";
+    position: absolute;
+    width: 94%;
+    height: 2px;
+    background-color: #fff;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+/* section-info */
+.start-10{
+    left: 40px;
+}
+.text-55{
+    font-size: 55px;
+}
+.section-info{
+    font-size: 55px;
+}
+
+.section-info p{
+    font-size: 16px;
+}
+
+.w-70{
+    width: 70%;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+/* General Styling */
+.DM-serif-display{
+    font-family: 'DM Serif Display', serif;
+}
+.DM-sans{
+    font-family: 'DM Sans', sans-serif;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-40{
+    font-size: 38px;
+}
+.fs-51{
+    font-size: 51px;
+}
+.fs-72{
+    font-size: 72px;
+}
+.text-main-color{
+    color: #3A3A38 !important;
+}
+.star{
+    color: #9A9162;
+}
+.test-head{
+    padding: 50px 0;
+  }
+/* //////////////////////////////////////////////////// */
+#placeholderImg{
+    top: 15%;
+    left: 46%;
+    z-index: -1;
+}
+#pro-service{
+    top: 62%;
+    left: 56%;
+}
+.quote{
+    background-image: url(../images/sevices/“.svg);
+    background-repeat: no-repeat;
+}
+
+.testimonial{
+    z-index: 1;
+}
+section{
+    padding: 80px 0;
+}
+#services{
+    margin-top: 10em !important;
+}
+
+
+
+/* Services Section */
+.service-underline{
+    position: relative;
+}
+.service-underline::after{
+    content: "";
+    position: absolute;
+    background-color: #3A3A38;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+}
+.headline{
+    position: relative;
+    font-size: 58px;
+}
+.headline::after{
+    content: "";
+    position: absolute;
+    background-color: #3A3A38;
+    width: 100%;
+    height: 2px;
+    bottom: -14%;
+    left: 0;
+}
+
+
+/* cases page styling */
+
+.case-btn{
+    background-color: #1E2E45;
+    color: #fff;
+    width: 30%;
+}
+.case-para{
+    padding: 80px 58px;
+}
+.case{
+    padding: 80px 0;
+}
+/* pagination styling */
+.page-link{
+    background-color: transparent;
+    border: none;
+}
+.page-link:hover{
+    background-color: transparent !important;
+}
